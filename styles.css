@@ -10,8 +10,6 @@ body{
 	text-align: center;
 	overflow: hidden;
 	box-shadow: 7px 7px 5px -3px;
-	border-top: 3px inset purple;
-	border-left: 3px inset purple;
 }
 
 /*4*/
@@ -23,6 +21,8 @@ body{
 .headerSection{
 	background: #33235F;
 	border-radius: 8px 8px 0px 0px;
+	border-top: 3px inset #CAB8FC;
+	border-left: 3px inset #CAB8FC;
 }
 
 .headerTitle{
@@ -97,6 +97,8 @@ body{
 	background: #7B709A;
 	color: #08021A;
 	border-radius: 0px 0px 8px 8px;
+	border-top: 3px inset #7A6F99;
+	border-left: 3px inset #7A6F99;
 }
 
 .chapterHeading{
