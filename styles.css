@@ -1,0 +1,84 @@
+body{
+	background: lemonchiffon;
+}
+
+.majorSection{
+	margin: 20px auto;
+	box-sizing: border-box;
+	padding: 20px;
+	width: 80vw;
+	text-align: center;
+}
+
+
+
+
+
+
+
+/*     HEADING AND NAVIGATION BAR      */
+
+
+.headerSection{
+	font-family: 'Signika', sans-serif;
+	background: rgb(155, 89, 182);
+	color: rgb(241, 196, 15);
+}
+
+.headerTitle{
+	font-size:50px;
+}
+
+.headerAuthor{
+	font-size:30px;
+}
+
+.contentSection{
+	background: rgb(237, 176, 211);
+	color: rgb(142, 68, 173);
+}
+
+.navigationBar{
+	display: inline-block;
+	width: 60vw;
+}
+
+.navigationButton{
+	display: inline-block;
+	width: 19%;
+}
+
+
+
+/*     CHAPTER CONTENT    */
+
+
+.chapterNavigation{
+	text-align: center;
+	float: right;
+}
+
+.chapterHeading{
+	clear:right;
+}
+
+.chapterList{
+	margin: auto;
+	list-style-type: none;
+}
+
+.chapterImage{
+	margin: auto;
+	width: 500px;
+	overflow:hidden;
+}
+
+.chapterParagraph{
+	overflow: auto;
+	text-align: left;
+}
+
+.gallery{
+	display: inline-block;
+	width: 60vw;
+}
