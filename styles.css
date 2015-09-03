@@ -1,28 +1,28 @@
 body{
-	background: lemonchiffon;
+	background: #B0C9E5;
 }
 
 .majorSection{
 	margin: 20px auto;
 	box-sizing: border-box;
-	padding: 20px;
+	padding: 30px;
 	width: 80vw;
 	text-align: center;
+	overflow: hidden;
+	box-shadow: 7px 7px 5px -3px;
+	border-top: 3px inset purple;
+	border-left: 3px inset purple;
 }
 
+/*4*/
 
 
-
-
-
-
-/*     HEADING AND NAVIGATION BAR      */
+/*     HEADING     */
 
 
 .headerSection{
-	font-family: 'Signika', sans-serif;
-	background: rgb(155, 89, 182);
-	color: rgb(241, 196, 15);
+	background: #33235F;
+	border-radius: 8px 8px 0px 0px;
 }
 
 .headerTitle{
@@ -31,12 +31,16 @@ body{
 
 .headerAuthor{
 	font-size:30px;
+	padding: 15px;
 }
 
-.contentSection{
-	background: rgb(237, 176, 211);
-	color: rgb(142, 68, 173);
+.headerText{
+	margin: 0px;
 }
+
+
+
+/*MAIN NAVIGATION BAR*/
 
 .navigationBar{
 	display: inline-block;
@@ -49,36 +53,74 @@ body{
 }
 
 
+/*        UNIVERSAL SKINS        */
 
-/*     CHAPTER CONTENT    */
+.navigationSkin{
+	font-family: "Trebuchet MS", Verdana, sans-serif;
+	text-decoration: none;
+	color: #B0C9E5;
+}
 
+.navigationSkin:hover{
+	color: #428EE5;
+}
+
+.headerSkin{
+	font-family: 'Signika', sans-serif;
+	color: #B0C9E5;
+}
+
+/*CHAPTER NAVIGATION*/
 
 .chapterNavigation{
 	text-align: center;
 	float: right;
 }
 
+.chapterList{
+	margin: auto;
+	list-style-type: none;
+	padding: 0px 30px 20px 30px;
+}
+
+.chapterButton{
+	padding: 5px;
+}
+
+.chapterButton :hover{
+	color: #33235F;
+}
+
+/*     CHAPTER CONTENT    */
+
+.contentSection{
+	background: #7B709A;
+	color: #08021A;
+	border-radius: 0px 0px 8px 8px;
+}
+
 .chapterHeading{
 	clear:right;
 }
 
-.chapterList{
-	margin: auto;
-	list-style-type: none;
+.chapterParagraph{
+	text-align: left;
+	line-height: 22px;
 }
+
+/*CHAPTER IMAGES*/
 
 .chapterImage{
 	margin: auto;
 	width: 500px;
-	overflow:hidden;
-}
-
-.chapterParagraph{
-	overflow: auto;
-	text-align: left;
 }
 
 .gallery{
 	display: inline-block;
 	width: 60vw;
+}
+
+.image{
+	margin: 10px;
+	box-shadow: 7px 7px 5px -3px;
 }
